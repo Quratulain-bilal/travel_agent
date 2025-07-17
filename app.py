@@ -44,7 +44,7 @@ language_agent = Agent(
     instructions="You are an expert at identifying languages and providing information about language usage in different regions.",
 )
 
-# SDK Framework Components
+# SDK Framework
 class LanguageMapSDK:
     def __init__(self):
         self.country_data = self._load_country_data()
